@@ -1,0 +1,31 @@
+nav {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+
+}
+
+.phone{
+    width: 15px;
+}
+
+.ul li:hover{
+    color:#FDC632 ;
+}
+
+.phone:hover{
+    color:#FDC632 ;
+}
+
+.login:hover{
+    color:#FDC632 ;
+}

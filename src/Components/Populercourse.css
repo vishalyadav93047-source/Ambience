@@ -1,0 +1,186 @@
+.populer0 {
+    height: 750px;
+    width: 100%;
+}
+
+
+.populertext2 {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    color: #002347;
+}
+
+.populertext3 {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    margin-top: 20px;
+    color: #7B838A;
+}
+
+.populer1 {
+    display: flex;
+    justify-content: center;
+}
+
+.populercourse1 {
+    height: 520px;
+    width: 350px;
+    background-color: #F9F9FF;
+    gap: 40px;
+    margin-left: 50px;
+    /* border-radius: 15px; */
+    list-style-type: none;
+    margin-top: 80px;
+}
+
+.populercourse1 ul {
+    height: 35px;
+    width: 170px;
+    background-color: #002347;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+
+}
+
+.populercourse1 h3 {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #002347;
+
+}
+
+.populercourse1 p {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #002347;
+    margin-right: 16px;
+    font-size: 18px;
+
+}
+
+.populercourse2 {
+    height: 520px;
+    width: 350px;
+    background-color: #F9F9FF;
+    gap: 40px;
+    margin-left: 50px;
+    /* border-radius: 15px; */
+    list-style-type: none;
+    margin-top: 80px;
+}
+
+.populercourse2 h3 {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #002347;
+
+}
+
+.populercourse2 p {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #002347;
+    margin-right: 16px;
+    font-size: 18px;
+
+}
+
+.populercourse2 ul {
+    height: 35px;
+    width: 190px;
+    background-color: #002347;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+
+}
+
+.populercourse3 {
+    height: 520px;
+    width: 350px;
+    background-color: #F9F9FF;
+    gap: 40px;
+    margin-left: 50px;
+    /* border-radius: 15px; */
+    list-style-type: none;
+    margin-top: 80px;
+}
+
+.populercourse3 ul {
+    height: 35px;
+    width: 110px;
+    background-color: #002347;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+
+}
+
+.populercourse3 h3 {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #002347;
+
+}
+
+.populercourse3 p {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #002347;
+    margin-right: 16px;
+    font-size: 18px;
+
+}
+
+.icons {
+    display: flex;
+
+}
+
+.populeicon {
+    font-size: 20px;
+    height: 20px;
+    width: 120px;
+    margin-top: 17px;
+    margin-left: 15px;
+
+
+}
+
+.populebutton {
+    background-color: #FDC632;
+    height: 40px;
+    width: 120px;
+    margin-top: 12px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.populercourse1:hover{
+    transition: 0.3s;
+    transform: translateY(-5px);
+}
+
+
+.populercourse2:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+}
+
+.populercourse3:hover{
+    transition: 0.3s;
+    transform: translateY(-5px);
+}

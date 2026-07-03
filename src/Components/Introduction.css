@@ -1,0 +1,125 @@
+.introduction{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image1{
+    height: 550px;
+    width: 470px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.text1{
+    height: 550px;
+    width: 690px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 10px solid #f8f7f7;
+    border-radius: 10px;
+    display: block;
+    
+}
+
+.text1 h1{
+    margin-top: 100px;
+    margin-left: 95px;
+}
+.text1 p{
+    margin-left: 95px;
+    /* margin-right: 60px; */
+    margin-top: 20px;
+}
+
+
+
+
+.teacherintroduction{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.teacherintroductionimage1{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+
+.teacherintroductionimage1 h2{
+    margin-top: -40px;
+    margin-bottom: 20px;
+    margin-left: -0.1px;
+    font-size: 20px;
+}
+.teacherintroductiontext1{
+    height: 300px;
+    width: 920px;
+    font-size: 18px;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+    
+    
+}
+
+.teacherintroductiontext1 h2{
+    margin-top: 10px;
+    margin-left: 95px;
+}
+.teacherintroductiontext1 p{
+    margin-left: 95px;
+    /* margin-right: 60px; */
+    margin-top: 20px;
+}
+
+
+
+
+
+.teacherintroduction1{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.teacherintroductionimage2{
+    height: 300px;
+    width: 350px;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+.teacherintroductionimage2 h2{
+    margin-bottom: 20px;
+    margin-top: -50px;
+    margin-left: -5px;
+}
+
+.teachertext2{
+    height: 300px;
+    width: 950px;
+    font-size: 18px;
+    margin-top: 50px;
+    /* margin-left: -90px; */
+    /* margin-right: 50px; */
+    
+    
+}
+
+.teachertext2 h2{
+    margin-top: 10px;
+    margin-left: 95px;
+}
+.teachertext2 p{
+    margin-left: 95px;
+    /* margin-right: 60px; */
+    margin-top: 20px;
+    font-size: 18px;
+}

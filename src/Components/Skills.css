@@ -1,0 +1,122 @@
+.skill {
+    height: 800px;
+    width: 100%;
+    /* background-color: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill1 {
+    height: 600px;
+    width: 70%;
+    background-color: #F9F9FF;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+
+}
+
+.skill2 {
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.h3 {
+    color: #FDC632;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.skillbutton {
+    height: 50px;
+    width: 150px;
+    border-radius: 9px;
+    border: none;
+    background-color: #FDC632;
+    font-size: 16px;
+    color: white;
+    margin-top: 50px;
+}
+
+.skillicon {
+    display: flex;
+
+}
+
+.skillicon1 {
+    height: 60px;
+    width: 160px;
+    background-color: #ecedee;
+    /* margin-left: 8px; */
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); */
+
+}
+
+.skillicon1 h6 {
+    font-size: 17px;
+    margin-left: 8px;
+}
+
+.skillicon2 {
+    height: 60px;
+    width: 160px;
+    background-color: #ecedee;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    font-size: 30px;
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); */
+
+}
+
+.skillicon2 h6 {
+    font-size: 17px;
+    margin-left: 8px;
+}
+
+.skillicon3 {
+    height: 60px;
+    width: 160px;
+    background-color: #ecedee;
+    /* margin-left: 20px; */
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    font-size: 30px;
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); */
+}
+
+.skillicon3 h6 {
+    font-size: 17px;
+    margin-left: 8px;
+}
+
+.skillicon4 {
+    height: 60px;
+    width: 160px;
+    background-color: #ecedee;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    font-size: 30px;
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); */
+}
+
+.skillicon4 h6 {
+    font-size: 16px;
+    margin-left: 8px;
+}
