@@ -165,7 +165,7 @@
 .phone {
     height: 50px;
     font-size: 30px;
-    /* width: 80%; */
+ 
     display: flex;
     margin-left: 5px;
     margin-top: 10px;
@@ -175,7 +175,7 @@
 .email {
     height: 50px;
     font-size: 30px;
-    /* width: 80%; */
+   
     display: flex;
     margin-left: 5px;
     margin-top: 10px;
@@ -186,7 +186,7 @@
     height: 55px;
     width: 80%;
     background-color: #FDC632;
-    /* color: white; */
+
     margin-left: 10%;
     margin-top: 20px;
     border-radius: 10px;
