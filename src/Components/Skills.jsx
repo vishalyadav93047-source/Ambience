@@ -26,7 +26,7 @@ function Skills() {
             </div>
 
 
-            <div className='skillicon'>
+            <div className='skillicon'> 
 
               <div className='skillicon0'>
                 <div className='skillicon3'>💰<h6>Affordable Fees</h6></div>
