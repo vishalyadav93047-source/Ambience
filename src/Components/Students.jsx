@@ -11,7 +11,7 @@ function Students() {
                         <h3>Our students say</h3>
                     </div>
                     <div className='Studenttext2'>
-                        <p>"I gained real skills through practical sessions that helped me grow quickly."</p>
+                        <p>"I gained real skills through practical sessions that helped me grow quickly."</p> 
                     </div>
                 </div>
 
