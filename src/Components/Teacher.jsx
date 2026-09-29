@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './Teacher.css'
 
@@ -41,3 +42,4 @@ function Teacher() {
 }
 
 export default Teacher
+

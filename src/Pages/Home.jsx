@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Mainnav from '../Components/Mainnav'
 import './Home.css'
@@ -18,6 +19,7 @@ function Home() {
     <>
     <div className='hero'>
         <Mainnav/>
+
 
 
 
@@ -50,3 +52,4 @@ function Home() {
 }
 
 export default Home
+

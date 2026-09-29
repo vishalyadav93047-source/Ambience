@@ -1,183 +1,528 @@
 .populer0 {
+
     height: 750px;
+
     width: 100%;
+
 }
 
 
 .populertext2 {
+
     display: flex;
+
     justify-content: center;
+
     font-size: 34px;
+
     color: #002347;
+
 }
 
 .populertext3 {
+
     display: flex;
+
     justify-content: center;
+
     font-size: 17px;
+
     margin-top: 20px;
+
     color: #7B838A;
+
 }
 
 .populer1 {
+
     display: flex;
+
     justify-content: center;
+
 }
 
 .populercourse1 {
+
     height: 520px;
+
     width: 350px;
+
     background-color: #F9F9FF;
+
     gap: 40px;
+
     margin-left: 50px;
+
     list-style-type: none;
+
     margin-top: 80px;
+
 }
 
 .populercourse1 ul {
+
     height: 35px;
+
     width: 170px;
+
     background-color: #002347;
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
+
     margin-top: 15px;
+
     margin-left: 15px;
+
     color: white;
 
 }
 
 .populercourse1 h3 {
+
     margin-top: 15px;
+
     margin-left: 15px;
+
     color: #002347;
 
 }
 
 .populercourse1 p {
+
     margin-top: 15px;
+
     margin-left: 15px;
+
     color: #002347;
+
     margin-right: 16px;
+
     font-size: 18px;
 
 }
 
 .populercourse2 {
+
     height: 520px;
+
     width: 350px;
+
     background-color: #F9F9FF;
+
     gap: 40px;
+
     margin-left: 50px;
+
     list-style-type: none;
+
     margin-top: 80px;
+
 }
 
 .populercourse2 h3 {
+
     margin-top: 15px;
+
     margin-left: 15px;
+
     color: #002347;
 
 }
 
 .populercourse2 p {
+
     margin-top: 15px;
+
     margin-left: 15px;
+
     color: #002347;
+
     margin-right: 16px;
+
     font-size: 18px;
 
 }
 
 .populercourse2 ul {
+
     height: 35px;
+
     width: 190px;
+
     background-color: #002347;
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
+
     margin-top: 15px;
+
     margin-left: 15px;
+
     color: white;
 
 }
 
 .populercourse3 {
+
     height: 520px;
+
     width: 350px;
+
     background-color: #F9F9FF;
+
     gap: 40px;
+
     margin-left: 50px;
+
     list-style-type: none;
+
     margin-top: 80px;
+
 }
 
 .populercourse3 ul {
+
     height: 35px;
+
     width: 110px;
+
     background-color: #002347;
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
+
     margin-top: 15px;
+
     margin-left: 15px;
+
     color: white;
 
 }
 
 .populercourse3 h3 {
+
     margin-top: 15px;
+
     margin-left: 15px;
+
     color: #002347;
 
 }
 
 .populercourse3 p {
+
     margin-top: 15px;
+
     margin-left: 15px;
+
     color: #002347;
+
     margin-right: 16px;
+
     font-size: 18px;
 
 }
 
 .icons {
+
     display: flex;
 
 }
 
 .populeicon {
+
     font-size: 20px;
+
     height: 20px;
+
     width: 120px;
+
     margin-top: 17px;
+
     margin-left: 15px;
 
 
 }
 
 .populebutton {
+
     background-color: #FDC632;
+
     height: 40px;
+
     width: 120px;
+
     margin-top: 12px;
+
     margin-left: 15px;
+
     border: none;
+
     border-radius: 5px;
+
 }
 
 .populercourse1:hover{
+
     transition: 0.3s;
+
     transform: translateY(-5px);
+
 }
 
 
 .populercourse2:hover{
+
     transition: 0.3s;
+
     transform: translateY(-10px);
+
 }
 
 .populercourse3:hover{
+
     transition: 0.3s;
+
     transform: translateY(-5px);
+
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE ONLY
+========================= */
+
+@media (max-width: 768px) {
+
+    .populer {
+        width: 100%;
+        height: auto;
+        padding: 30px 15px 50px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .populertext2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .populertext3 {
+        font-size: 15px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .populer1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .populercourse1,
+    .populercourse2,
+    .populercourse3 {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        min-height: 520px;
+        margin-left: 0;
+        margin-top: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .populercourse1 img,
+    .populercourse2 img,
+    .populercourse3 img {
+        width: 100%;
+        height: 275px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .populercourse1 ul,
+    .populercourse2 ul,
+    .populercourse3 ul {
+        max-width: calc(100% - 30px);
+        box-sizing: border-box;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .populercourse1 h3,
+    .populercourse2 h3,
+    .populercourse3 h3 {
+        font-size: 19px;
+        margin-right: 15px;
+    }
+
+    .populercourse1 p,
+    .populercourse2 p,
+    .populercourse3 p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-right: 15px;
+    }
+
+    .icons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+
+    .populeicon {
+        width: auto;
+        font-size: 15px;
+        margin-left: 15px;
+        white-space: nowrap;
+    }
+
+    .populebutton {
+        width: 120px;
+        min-width: 120px;
+        margin-left: 0;
+    }
+}
+
+
+/* =========================
+   SMALL PHONE
+========================= */
+
+@media (max-width: 480px) {
+
+    .populer {
+        padding: 25px 10px 40px;
+    }
+
+    .populertext2 {
+        font-size: 24px;
+    }
+
+    .populertext3 {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .populer1 {
+        margin-top: 30px;
+        gap: 18px;
+    }
+
+    .populercourse1,
+    .populercourse2,
+    .populercourse3 {
+        width: 100%;
+        min-height: 500px;
+        border-radius: 10px;
+    }
+
+    .populercourse1 img,
+    .populercourse2 img,
+    .populercourse3 img {
+        height: 230px;
+    }
+
+    .populercourse1 ul,
+    .populercourse2 ul,
+    .populercourse3 ul {
+        height: 32px;
+        font-size: 10px;
+    }
+
+    .populercourse1 h3,
+    .populercourse2 h3,
+    .populercourse3 h3 {
+        font-size: 18px;
+    }
+
+    .populercourse1 p,
+    .populercourse2 p,
+    .populercourse3 p {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+
+    .icons {
+        gap: 5px;
+    }
+
+    .populeicon {
+        font-size: 13px;
+    }
+
+    .populebutton {
+        width: 110px;
+        min-width: 110px;
+        height: 38px;
+        font-size: 11px;
+    }
+}
+
+
+/* =========================
+   VERY SMALL PHONE
+========================= */
+
+@media (max-width: 360px) {
+
+    .populertext2 {
+        font-size: 22px;
+    }
+
+    .populertext3 {
+        font-size: 13px;
+    }
+
+    .populercourse1,
+    .populercourse2,
+    .populercourse3 {
+        min-height: 480px;
+    }
+
+    .populercourse1 img,
+    .populercourse2 img,
+    .populercourse3 img {
+        height: 210px;
+    }
+
+    .populercourse1 h3,
+    .populercourse2 h3,
+    .populercourse3 h3 {
+        font-size: 17px;
+    }
+
+    .populercourse1 p,
+    .populercourse2 p,
+    .populercourse3 p {
+        font-size: 13px;
+    }
+
+    .populeicon {
+        font-size: 12px;
+    }
+
+    .populebutton {
+        width: 100px;
+        min-width: 100px;
+        font-size: 10px;
+    }
 }

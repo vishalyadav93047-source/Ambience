@@ -14,14 +14,12 @@ function Introduction() {
             </div>
 
 
-
-
-
             <div className='teacherintroduction'>
                 <div className='teacherintroductionimage1'>
                     <h2>Director’s Message</h2>
                     <img src="https://ambiencecomputereducation.com/img/trainer/mrsitaram.jpeg" alt="" height="250px" width="250px" />
                 </div>
+
                 <div className='teacherintroductiontext1'>
                     <p>At Ambience Computer Education, our mission is to empower every student with the skills needed to
                         succeed in<br/> today’s fast-growing digital world. We believe that quality education, practical learning, and
@@ -35,9 +33,6 @@ function Introduction() {
                     <h2>Director, Ambience Computer Education</h2>
                 </div>
             </div>
-
-
-
 
 
             <div className='teacherintroduction1'>
@@ -61,10 +56,6 @@ function Introduction() {
                 <img src="https://ambiencecomputereducation.com/img/trainer/mrradheshyam.jpeg" alt=""height="250px" width="250px" />
                 </div>
             </div>
-
-
-
-
         </>
     )
 }

@@ -1,77 +1,128 @@
 .introduction{
+
     height: 800px;
+
     width: 100%;
+
     display: flex;
+
     justify-content: center;
+
 }
 
 .image1{
+
     height: 550px;
+
     width: 470px;
+
     border-radius: 15px;
+
     margin-top: 50px;
+
 }
 
 .text1{
+
     height: 550px;
+
     width: 690px;
+
     font-size: 18px;
+
     margin-top: 50px;
+
     margin-left: 50px;
+
     border: 10px solid #f8f7f7;
+
     border-radius: 10px;
+
     display: block;
-    
+
 }
 
 .text1 h1{
+
     margin-top: 100px;
+
     margin-left: 95px;
+
 }
+
 .text1 p{
+
     margin-left: 95px;
+
     margin-top: 20px;
+
 }
 
 
 
 
 .teacherintroduction{
+
     height: 500px;
+
     width: 100%;
+
     display: flex;
+
     justify-content: center;
+
 }
 
 .teacherintroductionimage1{
+
     height: 250px;
+
     width: 250px;
+
     border-radius: 15px;
+
     margin-top: 70px;
+
 }
 
 .teacherintroductionimage1 h2{
+
     margin-top: -40px;
+
     margin-bottom: 20px;
+
     margin-left: -0.1px;
+
     font-size: 20px;
+
 }
+
 .teacherintroductiontext1{
+
     height: 300px;
+
     width: 920px;
+
     font-size: 18px;
+
     margin-top: 50px;
-    
-    
+
 }
 
 .teacherintroductiontext1 h2{
+
     margin-top: 10px;
+
     margin-left: 95px;
+
 }
+
 .teacherintroductiontext1 p{
+
     margin-left: 95px;
+
     margin-top: 20px;
+
 }
 
 
@@ -79,42 +130,291 @@
 
 
 .teacherintroduction1{
+
     height: 500px;
+
     width: 100%;
+
     display: flex;
+
     justify-content: center;
+
 }
 
 .teacherintroductionimage2{
+
     height: 300px;
+
     width: 350px;
+
     border-radius: 15px;
+
     margin-top: 70px;
+
     margin-left: 80px;
+
 }
 
 .teacherintroductionimage2 h2{
+
     margin-bottom: 20px;
+
     margin-top: -50px;
+
     margin-left: -5px;
+
 }
 
 .teachertext2{
+
     height: 300px;
+
     width: 950px;
+
     font-size: 18px;
+
     margin-top: 50px;
-   
-    
-    
+
 }
 
 .teachertext2 h2{
+
     margin-top: 10px;
+
     margin-left: 95px;
+
 }
+
 .teachertext2 p{
+
     margin-left: 95px;
+
     margin-top: 20px;
+
     font-size: 18px;
+
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE ONLY
+========================= */
+
+@media (max-width: 768px) {
+
+    .introduction {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 40px 15px;
+        box-sizing: border-box;
+    }
+
+    .image1 {
+        width: 100%;
+        max-width: 440px;
+        height: 420px;
+        margin-top: 0;
+    }
+
+    .image1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .text1 {
+        width: 100%;
+        max-width: 690px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 25px 20px;
+        box-sizing: border-box;
+    }
+
+    .text1 h1 {
+        margin-top: 10px;
+        margin-left: 0;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .text1 p {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .teacherintroduction {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 40px 20px;
+        box-sizing: border-box;
+    }
+
+    .teacherintroductionimage1 {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .teacherintroductionimage1 h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .teacherintroductionimage1 img {
+        width: 250px;
+        height: 250px;
+        max-width: 100%;
+    }
+
+    .teacherintroductiontext1 {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    .teacherintroductiontext1 h2 {
+        margin-top: 10px;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .teacherintroductiontext1 p {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .teacherintroduction1 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 40px 20px 60px;
+        box-sizing: border-box;
+    }
+
+    .teachertext2 {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        font-size: 18px;
+        order: 2;
+    }
+
+    .teachertext2 h2 {
+        margin-top: 10px;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .teachertext2 p {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .teacherintroductionimage2 {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+        order: 1;
+    }
+
+    .teacherintroductionimage2 h2 {
+        margin-bottom: 20px;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .teacherintroductionimage2 img {
+        width: 250px;
+        height: 250px;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .introduction {
+        padding: 30px 12px;
+    }
+
+    .image1 {
+        height: 330px;
+    }
+
+    .text1 {
+        padding: 20px 15px;
+        border-width: 6px;
+    }
+
+    .text1 h1 {
+        font-size: 24px;
+    }
+
+    .text1 p {
+        font-size: 14px;
+        line-height: 1.65;
+    }
+
+    .text1 p br {
+        display: none;
+    }
+
+    .teacherintroduction,
+    .teacherintroduction1 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .teacherintroductionimage1 h2,
+    .teacherintroductionimage2 h2 {
+        font-size: 18px;
+    }
+
+    .teacherintroductionimage1 img,
+    .teacherintroductionimage2 img {
+        width: 210px;
+        height: 210px;
+    }
+
+    .teacherintroductiontext1 p,
+    .teachertext2 p {
+        font-size: 14px;
+        line-height: 1.65;
+    }
+
+    .teacherintroductiontext1 p br,
+    .teachertext2 p br {
+        display: none;
+    }
+
+    .teacherintroductiontext1 h2,
+    .teachertext2 h2 {
+        font-size: 16px;
+    }
 }

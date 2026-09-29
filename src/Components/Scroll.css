@@ -1,45 +1,152 @@
+
 .Scroll{
+
     width: 100%;
+
     overflow: hidden;
+
     height: 230px;
+
 }
 
 .Scroll1{
+
     display: flex;
+
     gap: 20px;
+
     width: max-content;
+
     animation: marquee 15s linear infinite;
-    
+
 }
 
 .Scroll1:hover{
+
     animation-play-state: paused;
+
 }
 
 .scroll2{
+
     width: 250px;
+
     height: 78px;
+
     background: #ffffff;
+
     border-radius: 18px;
+
     border: 1px solid #e6e9f0;
+
     display: flex;
+
     align-items: center;
+
     gap: 14px;
+
     padding: 0 20px;
+
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0.06);
+
     font-size: 18px;
+
     color: #7B838A;
-    
+
 }
 
 
 
 
 @keyframes marquee {
+
     from{
+
         transform: translateX(0);
+
     }
+
     to{
+
         transform: translateX(-50%);
+
+    }
+
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE ONLY
+========================= */
+
+@media (max-width: 768px) {
+
+    .Scroll {
+        width: 100%;
+        height: 180px;
+        overflow: hidden;
+    }
+
+    .Scroll1 {
+        gap: 15px;
+    }
+
+    .scroll2 {
+        width: 220px;
+        height: 65px;
+        padding: 0 15px;
+        border-radius: 15px;
+        gap: 10px;
+        font-size: 15px;
+        box-sizing: border-box;
     }
 }
+
+
+/* =========================
+   SMALL PHONE
+========================= */
+
+@media (max-width: 480px) {
+
+    .Scroll {
+        height: 160px;
+    }
+
+    .Scroll1 {
+        gap: 12px;
+    }
+
+    .scroll2 {
+        width: 190px;
+        height: 58px;
+        padding: 0 12px;
+        border-radius: 13px;
+        font-size: 13px;
+    }
+}
+
+
+/* =========================
+   VERY SMALL PHONE
+========================= */
+
+@media (max-width: 360px) {
+
+    .Scroll {
+        height: 150px;
+    }
+
+    .Scroll1 {
+        gap: 10px;
+    }
+
+    .scroll2 {
+        width: 170px;
+        height: 54px;
+        padding: 0 10px;
+        font-size: 12px;
+        border-radius: 12px;
+    }
+}
+

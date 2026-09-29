@@ -43,6 +43,7 @@ function Footer() {
                <img src="https://ambiencecomputereducation.com/img/ambience_computer_education.webp" alt="" srcset="" height="200px" width="200px"></img>
             </div>
          </div>
+
          <div className="Footer2">
             <p className="Copyright">Copyright © 2026 All rights reserved | </p>
             <p className="Footer-text">Ambience Computer Education</p>

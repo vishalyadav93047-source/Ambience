@@ -1,3 +1,4 @@
+
 .skill {
     height: 800px;
     width: 100%;
@@ -118,3 +119,207 @@
     font-size: 16px;
     margin-left: 8px;
 }
+
+
+/* =========================
+   MOBILE RESPONSIVE ONLY
+========================= */
+
+@media (max-width: 768px) {
+
+    .skill {
+        width: 100%;
+        height: auto;
+        padding: 40px 15px;
+        box-sizing: border-box;
+    }
+
+    .skill1 {
+        width: 100%;
+        height: auto;
+        min-height: 600px;
+        border-radius: 15px;
+        box-sizing: border-box;
+        padding-bottom: 35px;
+    }
+
+    .skill2 {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .skill2 h1 {
+        font-size: 30px;
+    }
+
+    .h3 {
+        margin-top: 5px;
+        margin-bottom: 18px;
+    }
+
+    .skill2 p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .skill2 p br {
+        display: none;
+    }
+
+    .skillbutton {
+        margin-top: 30px;
+        height: 48px;
+        width: 145px;
+        font-size: 15px;
+    }
+
+    .skillicon {
+        width: 100%;
+        display: flex;
+        gap: 15px;
+    }
+
+    .skillicon1,
+    .skillicon2,
+    .skillicon3,
+    .skillicon4 {
+        width: 100%;
+        min-width: 0;
+        height: 60px;
+        margin-left: 0;
+        margin-top: 25px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        font-size: 25px;
+    }
+
+    .skillicon1 h6,
+    .skillicon2 h6,
+    .skillicon3 h6,
+    .skillicon4 h6 {
+        font-size: 13px;
+        margin-left: 6px;
+    }
+
+    .skill3 {
+        display: none;
+    }
+}
+
+
+/* =========================
+   SMALL PHONE
+========================= */
+
+@media (max-width: 480px) {
+
+    .skill {
+        padding: 30px 10px;
+    }
+
+    .skill1 {
+        min-height: 560px;
+    }
+
+    .skill2 {
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-top: 25px;
+    }
+
+    .skill2 h1 {
+        font-size: 25px;
+    }
+
+    .skill2 p {
+        font-size: 14px;
+    }
+
+    .skillbutton {
+        width: 140px;
+        height: 45px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .skillicon {
+        gap: 10px;
+    }
+
+    .skillicon1,
+    .skillicon2,
+    .skillicon3,
+    .skillicon4 {
+        height: 55px;
+        padding: 0 7px;
+        font-size: 22px;
+        border-radius: 8px;
+    }
+
+    .skillicon1 h6,
+    .skillicon2 h6,
+    .skillicon3 h6,
+    .skillicon4 h6 {
+        font-size: 11px;
+        margin-left: 5px;
+    }
+}
+
+
+/* =========================
+   VERY SMALL PHONE
+========================= */
+
+@media (max-width: 360px) {
+
+    .skill {
+        padding: 25px 8px;
+    }
+
+    .skill1 {
+        min-height: 530px;
+    }
+
+    .skill2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .skill2 h1 {
+        font-size: 22px;
+    }
+
+    .skill2 p {
+        font-size: 13px;
+        line-height: 1.55;
+    }
+
+    .skillbutton {
+        width: 135px;
+        height: 43px;
+        font-size: 13px;
+    }
+
+    .skillicon {
+        gap: 8px;
+    }
+
+    .skillicon1,
+    .skillicon2,
+    .skillicon3,
+    .skillicon4 {
+        height: 52px;
+        padding: 0 5px;
+        font-size: 19px;
+    }
+
+    .skillicon1 h6,
+    .skillicon2 h6,
+    .skillicon3 h6,
+    .skillicon4 h6 {
+        font-size: 10px;
+    }
+}
+

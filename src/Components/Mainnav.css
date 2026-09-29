@@ -1,31 +1,401 @@
 nav {
+
     width: 100%;
+
+    /* background-color: rgb(255, 226, 97); */
     background-color: transparent;
+
     display: flex;
+
     align-items: center;
+
     justify-content: space-evenly;
 
 }
 
 ul {
+
     display: flex;
+
     list-style-type: none;
+
     gap: 30px;
 
 }
 
-.phone{
+.phone {
+
     width: 15px;
+
 }
 
-.ul li:hover{
-    color:#FDC632 ;
+.ul li:hover {
+
+    color: #FDC632;
+
 }
 
-.phone:hover{
-    color:#FDC632 ;
+.phone:hover {
+
+    color: #FDC632;
+
 }
 
-.login:hover{
-    color:#FDC632 ;
+.login:hover {
+
+    color: #FDC632;
+
+}
+
+
+/* =========================
+   MOBILE BUTTON
+========================= */
+
+.mobile-menu-button {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    nav {
+
+        width: 100%;
+
+        height: 72px;
+
+        padding: 0 20px;
+
+        box-sizing: border-box;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+
+        position: relative;
+
+        background-color: transparent;
+    }
+
+
+    nav > img {
+
+        height: 58px;
+
+        width: auto;
+
+        max-width: 210px;
+
+        object-fit: contain;
+
+        display: block;
+    }
+
+
+    /* Hide desktop menu */
+
+    nav > .ul {
+
+        display: none;
+    }
+
+
+    nav > .phone {
+
+        display: none;
+    }
+
+
+    nav > .login {
+
+        display: none;
+    }
+
+
+    /* Hamburger */
+
+    .mobile-menu-button {
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        width: 42px;
+
+        height: 42px;
+
+        border: none;
+
+        background: transparent;
+
+        color: #F4B900;
+
+        font-size: 28px;
+
+        cursor: pointer;
+
+        padding: 0;
+    }
+
+
+    /* Side Menu */
+
+    .mobile-menu {
+
+        position: fixed;
+
+        top: 0;
+
+        right: -100%;
+
+        width: 62%;
+
+        max-width: 330px;
+
+        height: 100vh;
+
+        background-color: #1d2a3d;
+
+        z-index: 9999;
+
+        display: block;
+
+        transition: right 0.35s ease;
+
+        box-shadow: -8px 0 25px rgba(0, 0, 0, 0.25);
+
+        box-sizing: border-box;
+
+        padding: 70px 25px 25px;
+    }
+
+
+    .mobile-menu.show {
+
+        right: 0;
+    }
+
+
+    /* Close */
+
+    .close-button {
+
+        position: absolute;
+
+        top: 22px;
+
+        right: 20px;
+
+        width: 40px;
+
+        height: 40px;
+
+        border: none;
+
+        background: transparent;
+
+        color: #FDC632;
+
+        font-size: 30px;
+
+        cursor: pointer;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+    }
+
+
+    /* Mobile Links */
+
+    .mobile-links {
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 0;
+
+        width: 100%;
+
+        margin: 0;
+
+        padding: 0;
+
+        list-style: none;
+    }
+
+
+    .mobile-links li {
+
+        width: 100%;
+
+        padding: 18px 0;
+
+        border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+
+        color: white;
+
+        font-size: 17px;
+
+        font-weight: 600;
+
+        box-sizing: border-box;
+    }
+
+
+    .mobile-links li a {
+
+        color: white;
+
+        text-decoration: none;
+
+        display: block;
+
+        width: 100%;
+    }
+
+
+    .mobile-links li:hover {
+
+        color: #FDC632;
+    }
+
+
+    .mobile-links li:hover a {
+
+        color: #FDC632;
+    }
+
+
+    .mobile-phone {
+
+        display: flex;
+
+        align-items: center;
+
+        font-size: 20px !important;
+
+        padding-top: 25px !important;
+    }
+
+
+    .mobile-login {
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 8px;
+    }
+}
+
+
+/* =========================
+   SMALL PHONE
+========================= */
+
+@media (max-width: 480px) {
+
+    nav {
+
+        height: 65px;
+
+        padding: 0 15px;
+    }
+
+
+    nav > img {
+
+        height: 52px;
+
+        max-width: 185px;
+    }
+
+
+    .mobile-menu-button {
+
+        width: 38px;
+
+        height: 38px;
+
+        font-size: 25px;
+    }
+
+
+    .mobile-menu {
+
+        width: 67%;
+
+        max-width: 310px;
+
+        padding: 65px 22px 20px;
+    }
+
+
+    .close-button {
+
+        top: 18px;
+
+        right: 15px;
+
+        font-size: 28px;
+    }
+
+
+    .mobile-links li {
+
+        padding: 15px 0;
+
+        font-size: 16px;
+    }
+
+}
+
+
+/* =========================
+   VERY SMALL PHONE
+========================= */
+
+@media (max-width: 360px) {
+
+    nav > img {
+
+        height: 48px;
+
+        max-width: 170px;
+    }
+
+
+    .mobile-menu {
+
+        width: 72%;
+
+        padding-left: 18px;
+
+        padding-right: 18px;
+    }
+
+
+    .mobile-links li {
+
+        font-size: 15px;
+
+        padding: 14px 0;
+    }
 }

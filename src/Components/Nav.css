@@ -1,64 +1,275 @@
 
 .nav {
+
     width: 100%;
+
     background-color: transparent;
+
     display: flex;
+
     align-items: center;
+
     justify-content: space-evenly;
+
     height: 400px;
+
     background: rgba(0, 51, 102, 0.7);
+
     top: 0;
+
     left: 0;
-   
-    
-    
-    
+
+
+
+
 
 
 }
 
 .nav0{
+
      position: absolute;
-    width: 100%;
-    justify-content: space-evenly;
-    top: 0;
-    left: 0;
-    display: flex;
-    height: 50px;
+
+     width: 100%;
+
+     justify-content: space-evenly;
+
+     top: 0;
+
+     left: 0;
+
+     display: flex;
+
+     height: 50px;
+
 }
 
 .navul {
+
     display: flex;
+
     list-style-type: none;
+
     gap: 30px;
+
     margin-top: 25px;
 
 }
 
 .phone1{
+
     width: 15px;
+
      margin-top: 25px;
+
 }
 
 
 .navul li:hover{
+
     color:#FDC632 ;
+
 }
 
 .phone1:hover{
+
     color:#FDC632 ;
+
 }
 
 
 .nav2{
+
     display: block;
+
     position: absolute;
+
     margin-top: 150px;
+
     font-size: 18px;
+
 }
 
 .nav2 p{
+
     margin-top: 15px;
+
 }
 
+
+/* =========================
+   MOBILE RESPONSIVE ONLY
+========================= */
+
+@media (max-width: 768px) {
+
+    .nav {
+        width: 100%;
+        height: 350px;
+        box-sizing: border-box;
+    }
+
+    .nav0 {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .nav0 img {
+        height: 60px;
+        width: auto;
+        margin-top: 0;
+    }
+
+    .navul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+
+        gap: 12px 18px;
+
+        margin-top: 75px;
+        padding: 0;
+
+        position: absolute;
+        left: 0;
+    }
+
+    .navul li {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .phone1 {
+        width: auto;
+        margin-top: 0;
+        margin-left: auto;
+        font-size: 14px;
+    }
+
+    .nav2 {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: absolute;
+
+        margin-top: 220px;
+        left: 0;
+
+        text-align: center;
+
+        box-sizing: border-box;
+        padding: 0 15px;
+    }
+
+    .nav2 h2 {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .nav2 p {
+        margin-top: 12px;
+        font-size: 15px;
+    }
+}
+
+
+/* =========================
+   SMALL PHONE
+========================= */
+
+@media (max-width: 480px) {
+
+    .nav {
+        height: 320px;
+    }
+
+    .nav0 {
+        padding: 0 10px;
+    }
+
+    .nav0 img {
+        height: 52px;
+    }
+
+    .navul {
+        gap: 10px 13px;
+        margin-top: 65px;
+    }
+
+    .navul li {
+        font-size: 12px;
+    }
+
+    .phone1 {
+        font-size: 12px;
+    }
+
+    .nav2 {
+        margin-top: 205px;
+        padding: 0 10px;
+    }
+
+    .nav2 h2 {
+        font-size: 24px;
+    }
+
+    .nav2 p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+
+
+/* =========================
+   VERY SMALL PHONE
+========================= */
+
+@media (max-width: 360px) {
+
+    .nav {
+        height: 300px;
+    }
+
+    .nav0 img {
+        height: 48px;
+    }
+
+    .navul {
+        gap: 8px 10px;
+        margin-top: 62px;
+    }
+
+    .navul li {
+        font-size: 11px;
+    }
+
+    .phone1 {
+        font-size: 11px;
+    }
+
+    .nav2 {
+        margin-top: 190px;
+    }
+
+    .nav2 h2 {
+        font-size: 22px;
+    }
+
+    .nav2 p {
+        font-size: 12px;
+    }
+}
 
